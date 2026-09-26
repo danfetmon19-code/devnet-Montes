@@ -32,14 +32,10 @@ def display_menu():
 
 
 def add_movie(movie_list):
-    title = input("Enter Title:")
-    print(f"Title: {title}")
-
-    author = input("Enter Author:")
-    print(f"Author: {author}")
-
-    status = input("Enter Status:")
-    print(f"Status: {status}")    
+    title = input("Enter Title :")
+    author = input("Enter Author: ")
+    status = input("Enter Status: ")
+   
      
     pass 
     
@@ -64,7 +60,7 @@ def find_movie(movie_list):
     found = False
 
     for movie in movie_list.values():
-        if movie_list["title"].lower() == search:
+        if movie["title"].lower() == search:
             print("\n")
             print(f"Title:{movie['title']}")
             print(f"Author:{movie['author']}")
@@ -72,7 +68,7 @@ def find_movie(movie_list):
             found = True
     
     if not found:
-        print("Book was not found.")
+        print("movie was not found.")
     pass
 
 
