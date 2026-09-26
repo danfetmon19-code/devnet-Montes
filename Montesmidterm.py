@@ -15,13 +15,23 @@ def display_menu():
     print("4. Find a Movie")
     print("5. Exit")
 
-    if 
     pass
 
 
 def add_movie(movie_list):
     title = input("Enter Title:")
     print(f"Title: {title}")
+
+    author = input("Enter Author:")
+    print(f"Author: {author}")
+
+
+
+    status = input("Enter Status:")
+    print(f"Status: {Watched}")
+
+
+
     # build the movie string
     # add it to the list
     pass
@@ -58,3 +68,4 @@ def main():
 main()
 
 display_menu()
+ if 
